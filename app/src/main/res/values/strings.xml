@@ -11,4 +11,5 @@
     <string name="input_password_hint">Password</string>
     <string name="save">Save</string>
     <string name="register">Register</string>
+    <string name="show_all_users">Show all users</string>
 </resources>

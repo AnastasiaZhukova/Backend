@@ -7,7 +7,7 @@ import java.io.InputStream;
 
 public class BackendResponseParserFactory {
 
-    public IBackendResponseParser createParserForGsonUsersLis(final InputStream pInputStream) {
+    public IBackendResponseParser createParserForGsonUsersList(final InputStream pInputStream) {
         return new BackendResponseParserGson(pInputStream);
     }
 }
