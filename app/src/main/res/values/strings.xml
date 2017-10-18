@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Backend</string>
+    <string name="input_first_name">Input first name</string>
+    <string name="first_name">First name</string>
+    <string name="input_last_name">Input last name</string>
+    <string name="last_name">Last name</string>
+    <string name="input_email">Input email</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="input_password">Input password</string>
+    <string name="input_password_hint">Password</string>
+    <string name="save">Save</string>
+    <string name="register">Register</string>
+    <string name="show_all_users">Show all users</string>
 </resources>
