@@ -44,14 +44,13 @@ public class AllUsersActivity extends AppCompatActivity {
         } catch (Exception pE) {
             Log.e("All users", "Some errors");
         }
-        Log.d("All users", mUsersList.get(0).toString());
     }
 
     public void showUsersList() {
         if (mUsersList != null) {
             StringBuilder stringBuilder = new StringBuilder();
             List<IUser> usersList = mUsersList;
-            if (usersList != null) {
+            if (!usersList.isEmpty() && mUsersList != null) {
                 for (IUser user :
                         usersList) {
                     stringBuilder.append(user);

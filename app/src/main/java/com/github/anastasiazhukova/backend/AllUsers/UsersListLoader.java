@@ -48,11 +48,12 @@ public class UsersListLoader extends AsyncTask<Context, Void, List<IUser>> {
 
         context = params[0];
         return mBackendResponse.getUsersList();
+
     }
 
     @Override
     protected void onPostExecute(List<IUser> s) {
-        if (s.isEmpty() || s == null) {
+        if (s.isEmpty()) {
             Toast.makeText(context, NO_DATA, Toast.LENGTH_LONG).show();
         }
     }

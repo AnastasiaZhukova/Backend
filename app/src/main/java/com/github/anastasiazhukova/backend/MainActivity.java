@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public void startRegistrationActivity() {
         startActivity(new Intent(this, RegistrationActivity.class));
     }
+
     public void startAllUsersActivity() {
         startActivity(new Intent(this, AllUsersActivity.class));
     }
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mShowAllButton=findViewById(R.id.button_showusers);
+        mShowAllButton = findViewById(R.id.button_showusers);
         mShowAllButton.setOnClickListener(new View.OnClickListener() {
 
             @Override

@@ -24,6 +24,9 @@ public class BackendResponseGson implements IBackendResponse {
     @Override
     public List<IUser> getUsersList() {
         final List<IUser> users = new ArrayList<>();
+        if (mUsersList == null) {
+            return users;
+        }
         for (final UserGson user :
                 mUsersList) {
             users.add(user);
